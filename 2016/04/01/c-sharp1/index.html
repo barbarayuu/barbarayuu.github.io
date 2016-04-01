@@ -5,25 +5,25 @@
   
   <title>C#中构造用户组件 | FIREWORKS</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="C#中构造用户组件问题：当使用该组件时，无法按比例正常缩放1.设计的组件如下图：
+  <meta name="description" content="问题：当使用该组件时，无法按比例正常缩放1.设计的组件如下图：
 
 
 该组件是由container、label、以及richTextBox组成的；需要嵌入在form窗体中使用">
 <meta property="og:type" content="article">
 <meta property="og:title" content="C#中构造用户组件">
-<meta property="og:url" content="http://barbarayuu.github.io/2016/04/01/c#1/index.html">
+<meta property="og:url" content="http://barbarayuu.github.io/2016/04/01/c-sharp1/index.html">
 <meta property="og:site_name" content="FIREWORKS">
-<meta property="og:description" content="C#中构造用户组件问题：当使用该组件时，无法按比例正常缩放1.设计的组件如下图：
+<meta property="og:description" content="问题：当使用该组件时，无法按比例正常缩放1.设计的组件如下图：
 
 
 该组件是由container、label、以及richTextBox组成的；需要嵌入在form窗体中使用">
 <meta property="og:image" content="http://barbarayuu.github.io/images/component.PNG">
 <meta property="og:image" content="http://barbarayuu.github.io/images/form.PNG">
 <meta property="og:image" content="http://barbarayuu.github.io/images/comInForm.PNG">
-<meta property="og:updated_time" content="2016-04-01T03:32:04.041Z">
+<meta property="og:updated_time" content="2016-04-01T06:04:51.701Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="C#中构造用户组件">
-<meta name="twitter:description" content="C#中构造用户组件问题：当使用该组件时，无法按比例正常缩放1.设计的组件如下图：
+<meta name="twitter:description" content="问题：当使用该组件时，无法按比例正常缩放1.设计的组件如下图：
 
 
 该组件是由container、label、以及richTextBox组成的；需要嵌入在form窗体中使用">
@@ -80,9 +80,9 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main"><article id="post-c#1" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-c-sharp1" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/2016/04/01/c#1/" class="article-date">
+    <a href="/2016/04/01/c-sharp1/" class="article-date">
   <time datetime="2016-04-01T01:06:06.812Z" itemprop="datePublished">2016-04-01</time>
 </a>
     
@@ -102,28 +102,28 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="C-中构造用户组件"><a href="#C-中构造用户组件" class="headerlink" title="C#中构造用户组件"></a>C#中构造用户组件</h1><h3 id="问题：当使用该组件时，无法按比例正常缩放"><a href="#问题：当使用该组件时，无法按比例正常缩放" class="headerlink" title="问题：当使用该组件时，无法按比例正常缩放"></a>问题：当使用该组件时，无法按比例正常缩放</h3><p>1.设计的组件如下图：</p>
-<p><img src="images/component.PNG" alt=""></p>
+        <h3 id="问题：当使用该组件时，无法按比例正常缩放"><a href="#问题：当使用该组件时，无法按比例正常缩放" class="headerlink" title="问题：当使用该组件时，无法按比例正常缩放"></a>问题：当使用该组件时，无法按比例正常缩放</h3><p>1.设计的组件如下图：</p>
+<p><img src="images/component.PNG" alt="component ico"></p>
 <blockquote>
 <p>该组件是由container、label、以及richTextBox组成的；<br>需要嵌入在form窗体中使用</p>
 </blockquote>
 <a id="more"></a>
 <p>2.原有form窗体如下：</p>
-<p><img src="images/form.PNG" alt=""></p>
+<p><img src="images/form.PNG" alt="form ico"></p>
 <blockquote>
 <p>组件太大，进行缩放后，比例失衡出现了上如所示的情形，很多部分没有了！！</p>
 </blockquote>
 <p>3.解决方法：</p>
 <blockquote>
-<p>整个container的dock属性设置为fill，意思是让该容器无论多大的尺寸，内部的组件都按比例填满&gt; 整个容器。得到的效果如下：</p>
+<p>整个container的dock属性设置为fill，意思是让该容器无论多大的尺寸，内部的组件都按比例填满整个容器。得到的效果如下：</p>
 </blockquote>
-<p><img src="images/comInForm.PNG" alt=""></p>
+<p><img src="images/comInForm.PNG" alt="conInForm ico"></p>
 <p>4.问题得到解决，完美~</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://barbarayuu.github.io/2016/04/01/c#1/" data-id="cimh58jjz000178na7rnhi0dv" class="article-share-link">Share</a>
+      <a data-url="http://barbarayuu.github.io/2016/04/01/c-sharp1/" data-id="cimhaawmc0000zsnaxj5o3ws8" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/C/">C#</a></li></ul>
@@ -137,7 +137,7 @@
   
     <a href="/2016/03/14/from-now/" id="article-nav-older" class="article-nav-link-wrap">
       <strong class="article-nav-caption">Older</strong>
-      <div class="article-nav-title"></div>
+      <div class="article-nav-title">Today Is Monday</div>
     </a>
   
 </nav>
@@ -156,7 +156,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">标签</h3>
     <div class="widget">
-      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/C/">C#</a></li></ul>
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/C/">C#</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/destination/">destination</a></li></ul>
     </div>
   </div>
 
@@ -166,7 +166,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">标签云</h3>
     <div class="widget tagcloud">
-      <a href="/tags/C/" style="font-size: 10px;">C#</a>
+      <a href="/tags/C/" style="font-size: 10px;">C#</a> <a href="/tags/destination/" style="font-size: 10px;">destination</a>
     </div>
   </div>
 
@@ -188,11 +188,11 @@
       <ul>
         
           <li>
-            <a href="/2016/04/01/c#1/">C#中构造用户组件</a>
+            <a href="/2016/04/01/c-sharp1/">C#中构造用户组件</a>
           </li>
         
           <li>
-            <a href="/2016/03/14/from-now/">(no title)</a>
+            <a href="/2016/03/14/from-now/">Today Is Monday</a>
           </li>
         
           <li>
