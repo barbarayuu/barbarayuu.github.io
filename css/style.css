@@ -602,8 +602,8 @@ a.article-title:hover {
 }
 .article-entry img,
 .article-entry video {
-  max-width: 100%;
-  height: auto;
+  max-width: 30%;
+  max-height:30%;
   display: block;
   margin: auto;
 }
@@ -626,9 +626,11 @@ a.article-title:hover {
 }
 .article-entry blockquote {
   font-family: Georgia, "Times New Roman", serif;
-  font-size: 1.4em;
+  font-size: 1em;
   margin: 1.6em 20px;
-  text-align: center;
+  padding-left:1em;
+  color:#888;
+  border-left:3px solid #ccc;
 }
 .article-entry blockquote footer {
   font-size: 14px;

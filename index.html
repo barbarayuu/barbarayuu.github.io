@@ -68,6 +68,48 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-c#1" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2016/04/01/c#1/" class="article-date">
+  <time datetime="2016-04-01T01:06:06.812Z" itemprop="datePublished">2016-04-01</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="C-中构造用户组件"><a href="#C-中构造用户组件" class="headerlink" title="C#中构造用户组件"></a>C#中构造用户组件</h1><h3 id="问题：当使用该组件时，无法按比例正常缩放"><a href="#问题：当使用该组件时，无法按比例正常缩放" class="headerlink" title="问题：当使用该组件时，无法按比例正常缩放"></a>问题：当使用该组件时，无法按比例正常缩放</h3><p>1.设计的组件如下图：</p>
+<p><img src="images/component.PNG" alt=""></p>
+<blockquote>
+<p>该组件是由container、label、以及richTextBox组成的；<br>需要嵌入在form窗体中使用</p>
+</blockquote>
+<p>2.原有form窗体如下：</p>
+<p><img src="images/form.PNG" alt=""></p>
+<blockquote>
+<p>组件太大，进行缩放后，比例失衡出现了上如所示的情形，很多部分没有了！！</p>
+</blockquote>
+<p>3.解决方法：</p>
+<blockquote>
+<p>整个container的dock属性设置为fill，意思是让该容器无论多大的尺寸，内部的组件都按比例填满&gt; 整个容器。得到的效果如下：</p>
+</blockquote>
+<p><img src="images/comInForm.PNG" alt=""></p>
+<p>4.问题得到解决，完美~</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2016/04/01/c#1/" data-id="cimh1tluy00002sna2d9tg8e0" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
     <article id="post-from-now" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2016/03/14/from-now/" class="article-date">
@@ -80,8 +122,7 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>#Today Is Monday</p>
-<p>###The weather is becoming warmer.<br>From this week, I need to <em>learn more knowledge</em> about my hobby which got to <strong>find a job</strong>.<br>Sometimes, maybe there are lots of things need to be done,but I know that</p>
+        <h1 id="Today-Is-Monday"><a href="#Today-Is-Monday" class="headerlink" title="Today Is Monday"></a>Today Is Monday</h1><h3 id="The-weather-is-becoming-warmer"><a href="#The-weather-is-becoming-warmer" class="headerlink" title="The weather is becoming warmer."></a>The weather is becoming warmer.</h3><p>From this week, I need to <em>learn more knowledge</em> about my hobby which got to <strong>find a job</strong>.<br>Sometimes, maybe there are lots of things need to be done,but I know that</p>
 <blockquote>
 <p>Time is just like the water in the sponge. Squeeze it, and you will have it.</p>
 </blockquote>
@@ -89,7 +130,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2016/03/14/from-now/" data-id="cilrm4j1x00020knakc1313si" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2016/03/14/from-now/" data-id="cimh1tlvd00012snayx64snzf" class="article-share-link">Share</a>
       
       
     </footer>
@@ -134,7 +175,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2016/03/11/hello-world/" data-id="cilrm4j1100000knactiwx8lx" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2016/03/11/hello-world/" data-id="cimh1tlw900022sna6ywom5hv" class="article-share-link">Share</a>
       
       
     </footer>
@@ -161,7 +202,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">归档</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/03/">三月 2016</a></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/04/">四月 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/03/">三月 2016</a></li></ul>
     </div>
   </div>
 
@@ -172,6 +213,10 @@
     <h3 class="widget-title">最新文章</h3>
     <div class="widget">
       <ul>
+        
+          <li>
+            <a href="/2016/04/01/c#1/">(no title)</a>
+          </li>
         
           <li>
             <a href="/2016/03/14/from-now/">(no title)</a>
